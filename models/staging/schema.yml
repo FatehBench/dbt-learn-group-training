@@ -12,7 +12,6 @@ models:
   - name: stg_customers
     columns:
       - name: customer_id
-        description: Primary key
         tests:
           - unique
           - not_null
