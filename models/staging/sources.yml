@@ -15,3 +15,9 @@ sources:
         freshness:
           warn_after: {count: 12, period: hour}
           error_after: {count: 24, period: hour}
+
+
+  - name: stripe
+    database: raw
+    tables:
+      - name: payment
