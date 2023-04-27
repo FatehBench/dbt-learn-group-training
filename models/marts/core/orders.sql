@@ -1,9 +1,3 @@
-{{
-    config(
-        tags = 'hourly'
-    )
-}}
-
 with orders as  (
 
     select * from {{ ref('stg_orders' )}}

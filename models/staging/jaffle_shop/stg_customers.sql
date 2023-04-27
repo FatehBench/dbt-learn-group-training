@@ -1,10 +1,3 @@
-{{
-    config(
-        materialized='table',
-        tags = 'customers',
-        schema = 'dbt_example'
-    )
-}}
 
 select
     id as customer_id,
