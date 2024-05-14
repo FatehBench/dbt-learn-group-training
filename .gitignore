@@ -2,3 +2,13 @@
 target/
 dbt_modules/
 logs/
+dbt_packages/
+profile.yml
+profiles.yml
+*.env
+.user.yml
+package-lock.yml
+
+# Ignore VSCode files 
+.vscode/
+.history/
